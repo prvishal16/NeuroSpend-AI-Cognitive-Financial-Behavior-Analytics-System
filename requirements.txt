@@ -1,0 +1,16 @@
+Flask
+Flask-SQLAlchemy
+SQLAlchemy
+pandas
+numpy
+scikit-learn
+joblib
+plotly
+dash
+gunicorn
+python-dotenv
+requests
+# For local speech-to-text
+pocketsphinx
+# For scheduling pipelines (optional for production)
+apache-airflow==2.6.3
