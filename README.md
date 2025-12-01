@@ -9,21 +9,22 @@ It includes:
 - Google YouTube API integration placeholder to fetch personalized video recommendations
 
 
- 📂 Project Structure
+#📂 Project Structure
+
 neurospend_starter/
-│── app.py
-│── models.py
-│── ml.py
-│── utils.py
-│── dash_app.py
-│── create_db.py
-│── train_model.py
-│── airflow/
-│   └── dags/train_pipeline.py
-│── templates/index.html
-│── static/
-│── requirements.txt
-│── README.md
+          │── app.py
+          │── models.py
+          │── ml.py
+          │── utils.py
+          │── dash_app.py
+          │── create_db.py
+          │── train_model.py
+          │── airflow/
+          │   └── dags/train_pipeline.py
+          │── templates/index.html
+          │── static/
+          │── requirements.txt
+          │── README.md
 
 ## How to run (development)
 1. Create a virtual environment and install requirements:
