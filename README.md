@@ -85,7 +85,7 @@ Searches for “budgeting tips”, “saving habits”, etc
 
 Personalized based on detected behavior type
 
-📂 Project Structure 
+📂 Project Structure
 neurospend_starter/
 │── app.py
 │── models.py
@@ -100,6 +100,7 @@ neurospend_starter/
 │── static/
 │── requirements.txt
 │── README.md
+
 
 🛠 Installation
 python -m venv venv
