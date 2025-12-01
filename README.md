@@ -8,6 +8,23 @@ It includes:
 - Voice/chat endpoint skeleton (accepts text queries; audio handling placeholder)
 - Google YouTube API integration placeholder to fetch personalized video recommendations
 
+
+ 📂 Project Structure
+neurospend_starter/
+│── app.py
+│── models.py
+│── ml.py
+│── utils.py
+│── dash_app.py
+│── create_db.py
+│── train_model.py
+│── airflow/
+│   └── dags/train_pipeline.py
+│── templates/index.html
+│── static/
+│── requirements.txt
+│── README.md
+
 ## How to run (development)
 1. Create a virtual environment and install requirements:
    ```
@@ -47,6 +64,13 @@ It includes:
 - requirements.txt
 - README.md
 
+🎤 Voice Query API Example
+POST /api/voice_query
+Form Data:
+ audio: sample.wav
+
+▶ YouTube Financial Tips API
+GET /api/youtube_recs?topic=personal finance
 ## Notes
 - The voice endpoint currently accepts plain text queries. For production voice support, add client-side recording and send audio to a speech-to-text service (Web Speech API, Google Speech-to-Text, or SpeechRecognition library + local pocketsphinx).
 - The Google YouTube integration requires an API key. Place it in environment variable `YOUTUBE_API_KEY`.
