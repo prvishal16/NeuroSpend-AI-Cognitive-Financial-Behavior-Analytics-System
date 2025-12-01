@@ -52,3 +52,4 @@ It includes:
 - The Google YouTube integration requires an API key. Place it in environment variable `YOUTUBE_API_KEY`.
 - This is a starting point. Extend the ML models, SQL windowed queries, and dashboards to match NeuroSpend AI full spec.
 "# NeuroSpend-AI-Cognitive-Financial-Behavior-Analytics-System" 
+"# NeuroSpend-AI-Cognitive-Financial-Behavior-Analytics-System" 
